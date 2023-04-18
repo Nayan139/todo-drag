@@ -1,0 +1,71 @@
+
+.App {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+}
+
+.App .column {
+    width: 30%;
+}
+
+.droppable-col {
+    width: 100%;
+    background-color: rgb(230, 199, 199);
+    padding: 10px 10px 0 10px;
+    border-radius: 7px;
+    display: flex;
+    flex-direction: column;
+}
+
+.item {
+    margin-bottom: 10px;
+    background-color: rgb(230, 199, 199);
+    color: black;
+    border: 1px solid white;
+    padding: 5px;
+    border-radius: 7px;
+    display: flex;
+    flex-direction: column;
+}
+
+.item.dragging {
+    background-color: coral;
+}
+.title{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.error{
+    color: red;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.info{
+    color: rgb(49, 153, 172);
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.add-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 20%;
+    height: 100%;
+}
+.input-main{
+    display: flex;
+    flex-direction: column;
+}
+
+.input-main input{
+    height: 40px;
+    width: 100%;
+    margin-bottom: 10px;
+    font-size: larger;
+}
